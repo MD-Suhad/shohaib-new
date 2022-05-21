@@ -26,7 +26,7 @@ const Login = () => {
 
    return (
       <div className="login-page ">
-         <Container >
+         <Container className='mx-auto'>
            
                <Form
                className="login-form d-flex align-content-center"

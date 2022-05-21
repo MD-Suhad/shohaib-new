@@ -48,6 +48,7 @@ const useFirebase = () => {
 
   
   return   {
+       user,
         loginUser,
      }
    
