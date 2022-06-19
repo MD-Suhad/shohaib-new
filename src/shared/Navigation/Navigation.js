@@ -4,9 +4,9 @@ import profileIcon from '../../images/logos/logo.png';
 import bannerImage from '../../images/logos/Frame.png'
 import styled from 'styled-components';
 import './Navigation.css';
-import Carousel from '../../Pages/Home/Carousel/Carouseled';
 import useAuth from '../../Hooks/useAuth';
-import { NavLink } from 'react-router-dom';
+
+
 
 // const StyledFirst = styled.div`
 // background-color:'#FBD062';
@@ -62,7 +62,7 @@ const Navigation = () => {
                               
                               
                               :
-                              <NavLink to="/login"><Button>Login</Button></NavLink>
+                              <Nav.Link href="#login" to="/login">Login</Nav.Link>
                            }
 
                         </Nav>
@@ -95,9 +95,6 @@ const Navigation = () => {
          </Navbar>
 
 
-         {/* <Carousel>
-
-         </Carousel> */}
 
 
 

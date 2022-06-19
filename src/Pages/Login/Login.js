@@ -8,7 +8,7 @@ import './Login.css';
 const Login = () => {
 
    const [loginData,setLoginData] = useState({})
-   const[loginUser] = useAuth();
+   const[loginUser] = useAuth({});
    
    const handleOnChange = e =>{
       const field = e.target.name;
